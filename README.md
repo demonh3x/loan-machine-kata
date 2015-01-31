@@ -11,7 +11,7 @@ Each object holder consists of two parts:
 - A one-way locking latch mechanism:
   - When an object is inserted, locks the object automatically.
   - Can open the lock to release the object.
-  - Detects if it is in closed position.
+  - Detects if it is in closed position or not.
 - An object identifier
   - Detects the holding object's id.
 
