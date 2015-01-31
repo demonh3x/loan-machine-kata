@@ -24,6 +24,7 @@ Modifiers:
 --------------------
 - The object identifier has some delay detecting the objects.
   For example: it detects the object 1 second after it has been placed in the identifier range.
+- The object identifier may stop detecting the objects temporarily.
 - The one-way locking latch mechanism can be picked.
 - The one-way locking latch mechanism may not open when you tell it to.
   For example: it is under pressure because of the object is in a bad position.
