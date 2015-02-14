@@ -15,9 +15,10 @@ Each object holder consists of two parts:
 - An object identifier
   - Detects the holding object's id.
 
-You have to interact with the machine to:
-- Detect when an object is received.
-- Lend an object.
+The client wants the machine to:
+- Know where each object is at every moment. If the object is at an object holder or if some person has it.
+- Able to lend an object to a person.
+- Know how much time a person had an object.
 
 Quite simple, isn't it?
 
@@ -29,3 +30,4 @@ Modifiers:
 - The one-way locking latch mechanism can be picked.
 - The one-way locking latch mechanism may not open when you tell it to.
   For example: it is under pressure because of the object is in a bad position.
+- The client also wants the machine to detect the malfunctions to later notify them to a technician.
