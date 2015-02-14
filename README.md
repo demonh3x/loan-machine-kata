@@ -9,9 +9,9 @@ The machine can lend those objects to people.
 
 Each object holder consists of two parts:
 - A one-way locking latch mechanism:
-  - When an object is inserted, locks the object automatically.
+  - If it is opened, when an object is inserted, the lock closes and locks the object automatically.
   - Can open the lock to release the object.
-  - Detects if it is in closed position or not.
+  - Detects if it is in closed or open position.
 - An object identifier
   - Detects the holding object's id.
 
